@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#FFFFFF] w-full h-20 flex items-center justify-between px-4 sm:px-6 lg:px-20 fixed top-0 z-50">
+    <nav className="bg-[#FFFFFF] w-full h-20 flex items-center justify-between px-4 sm:px-6 lg:px-20 fixed top-0 z-[999]">
       {/* Logo Section */}
       <NavbarLogo />
 
