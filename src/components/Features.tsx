@@ -16,12 +16,12 @@ const Features = () => {
       </div>
 
       {/* Show Slider on Larger Screens */}
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <Slider properties={properties} itemsPerPage={1.75} />
       </div>
 
       {/* Show Property Cards on Mobile */}
-      <div className="md:hidden flex items-center justify-center ">
+      <div className="lg:hidden flex items-center justify-center ">
         <div className="mt-8">
           {properties.map((property) => (
             <PropertyCard key={property.id} property={property} />
