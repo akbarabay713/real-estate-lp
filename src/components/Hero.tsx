@@ -1,7 +1,7 @@
 import mapImage from "../assets/map.png";
 import HeroCard from "./UI/HeroCard";
 import HeroStats from "./UI/HeroStats";
-import MapMarker from "./UI/mapMarker";
+import MapMarker from "./UI/MapMarker";
 import SearchBar from "./UI/SearchBar";
 
 const Hero = () => {
