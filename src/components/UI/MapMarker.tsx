@@ -2,11 +2,11 @@ const MapMarker = () => {
   return (
     <div className="relative bg-white rounded-lg shadow-md w-[72px] h-[72px] border-[5px] border-[#ECEEFF] flex gap-4">
       <div className="overflow-hidden">
-        <div className="w-[105px] h-[133px] rounded-md overflow-hidden">
+        <div className="w-[105px] h-[133px] rounded-md overflow-hidden relative">
           <img
             src="/houses.png"
             alt="House"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover -top-8 -left-5 absolute"
           />
         </div>
       </div>

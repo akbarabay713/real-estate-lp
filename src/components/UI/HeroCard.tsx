@@ -1,6 +1,6 @@
 const HeroCard = () => {
   return (
-    <div className="relative bg-white rounded-lg shadow-md p-4 w-[435px] h-[165px] border border-[#A8AEE5] flex gap-4">
+    <div className="relative bg-white rounded-lg shadow-md p-4 w-[435px] h-[165px] border-[1.5px] border-[#A8AEE5] flex gap-4">
       <div className="w-[105px] h-[133px] rounded-md overflow-hidden">
         <img
           src="/image_card.png"
