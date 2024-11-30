@@ -17,7 +17,7 @@ const Features = () => {
 
       {/* Show Slider on Larger Screens */}
       <div className="hidden md:block">
-        <Slider properties={properties} itemsPerPage={2} />
+        <Slider properties={properties} itemsPerPage={1.75} />
       </div>
 
       {/* Show Property Cards on Mobile */}
