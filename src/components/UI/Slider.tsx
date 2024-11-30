@@ -1,6 +1,4 @@
 import { useState } from "react";
-import chevron_left from "../../assets/chevron-left.svg";
-import chevron_right from "../../assets/chevron-right.svg";
 import PropertyCard from "./Card";
 import { SliderProps } from "../../types";
 
@@ -49,13 +47,13 @@ const Slider = ({ properties, itemsPerPage }: SliderProps) => {
           onClick={handlePrev}
           className="w-9 h-9 border rounded-lg flex items-center justify-center hover:bg-[#A8AEE5]"
         >
-          <img src={chevron_left} alt="chevron_left" />
+          <img src="/chevron-left.svg" alt="chevron_left" />
         </button>
         <button
           onClick={handleNext}
           className="w-9 h-9 border rounded-lg flex items-center justify-center hover:bg-[#A8AEE5]"
         >
-          <img src={chevron_right} alt="chevron_right" />
+          <img src="/chevron-right.svg" alt="chevron_right" />
         </button>
       </div>
     </div>

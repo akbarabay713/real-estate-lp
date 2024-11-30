@@ -9,7 +9,7 @@ export const properties: Property[] = [
     price: "Pre-launch: Prices TBA",
     description:
       "Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.",
-    image: "/src/assets/base_1.png",
+    image: "/base_1.png",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const properties: Property[] = [
     price: "Pre-launch: Prices TBA",
     description:
       "Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.",
-    image: "/src/assets/base_2.png",
+    image: "/base_2.png",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const properties: Property[] = [
     price: "Pre-launch: Prices TBA",
     description:
       "Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.",
-    image: "/src/assets/base_3.png",
+    image: "/base_3.png",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const properties: Property[] = [
     price: "Pre-launch: Prices TBA",
     description:
       "Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.",
-    image: "/src/assets/base_4.png",
+    image: "/base_4.png",
   },
   {
     id: 5,
@@ -49,6 +49,6 @@ export const properties: Property[] = [
     price: "Pre-launch: Prices TBA",
     description:
       "Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.",
-    image: "/src/assets/base_5.png",
+    image: "/base_5.png",
   },
 ];

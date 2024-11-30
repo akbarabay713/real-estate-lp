@@ -1,8 +1,6 @@
-import ProperlyIcon from "../../assets/properly.svg";
-
 const NavbarLogo = () => (
   <div className="flex gap-4 items-center">
-    <img src={ProperlyIcon} alt="Properly Logo" />
+    <img src="properly.svg" alt="Properly Logo" />
     <p className="text-[#161616] font-bold text-xl">Properly.</p>
   </div>
 );

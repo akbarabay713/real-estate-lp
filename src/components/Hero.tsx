@@ -1,4 +1,3 @@
-import mapImage from "../assets/map.png";
 import HeroCard from "./UI/HeroCard";
 import HeroStats from "./UI/HeroStats";
 import MapMarker from "./UI/MapMarker";
@@ -13,7 +12,7 @@ const Hero = () => {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center justify-between px-12 md:px-20 py-16 z-20">
         {/* Left Section */}
-        <div className="md:w-1/2 w-full text-center md:text-left">
+        <div className="lg:w-1/2 w-full text-center lg:text-left">
           <h1 className="md:text-6xl text-3xl text-[#303030] font-semibold">
             Let’s Find The Most{" "}
             <span className="text-[#429BF4]">Suitable Home</span> For You!
@@ -36,7 +35,7 @@ const Hero = () => {
 
       {/* Map Image */}
       <img
-        src={mapImage}
+        src="/map.png"
         alt="Map"
         className="w-fit absolute -top-20 right-0 z-10 hidden lg:block"
       />

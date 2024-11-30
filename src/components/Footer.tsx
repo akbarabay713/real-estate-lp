@@ -1,5 +1,3 @@
-import footer_img from "../assets/footer.png";
-import location_footer from "../assets/location_footer.svg";
 import NavbarLogo from "./UI/NavbarLogo";
 
 const Footer = () => {
@@ -16,7 +14,7 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-3 items-center">
-          <img src={location_footer} alt="Footer icons" />
+          <img src="/location_footer.svg" alt="Footer icons" />
           <p className="font-medium text-base text-[#667085]">
             Yogyakarta, Bali{" "}
           </p>
@@ -26,7 +24,7 @@ const Footer = () => {
       {/* Footer Image */}
       <div className="w-full">
         <img
-          src={footer_img}
+          src="/footer.png"
           alt="Footer Background"
           className="w-full h-full object-cover"
         />

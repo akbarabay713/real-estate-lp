@@ -1,14 +1,9 @@
-import square from "../../assets/squareFoot.svg";
-import bath from "../../assets/bath.svg";
-import bed from "../../assets/bed.svg";
-import imageCard from "../../assets/image_card.png";
-
 const HeroCard = () => {
   return (
     <div className="relative bg-white rounded-lg shadow-md p-4 w-[435px] h-[165px] border border-[#A8AEE5] flex gap-4">
       <div className="w-[105px] h-[133px] rounded-md overflow-hidden">
         <img
-          src={imageCard}
+          src="/image_card.png"
           alt="House"
           className="w-full h-full object-cover"
         />
@@ -31,15 +26,15 @@ const HeroCard = () => {
         {/* Details Section */}
         <div className="flex items-center mt-4 space-x-6 text-sm text-gray-500">
           <div className="flex items-center space-x-1">
-            <img src={square} alt="Area" />
+            <img src="/squareFoot.svg" alt="Area" />
             <span className="text-[#303030A3] text-sm font-medium">120 M²</span>
           </div>
           <div className="flex items-center space-x-1">
-            <img src={bath} alt="Bathroom" />
+            <img src="/bath.svg" alt="Bathroom" />
             <span className="text-[#303030A3] text-sm font-medium">2 Room</span>
           </div>
           <div className="flex items-center space-x-1">
-            <img src={bed} alt="Bedroom" />
+            <img src="/bed.svg" alt="Bedroom" />
             <span className="text-[#303030A3] text-sm font-medium">4 Room</span>
           </div>
         </div>
